@@ -1,0 +1,15 @@
+{
+    "rulesDirectory": ["node_modules/tslint-microsoft-contrib"],
+    "extends": [
+      "tslint-microsoft-contrib/recommended"
+    ],
+    "rules": {
+      "max-file-line-count": [
+        true,
+        600
+      ],
+      "no-relative-imports": false,
+      "no-string-based-set-timeout": false
+    }
+  }
+  
